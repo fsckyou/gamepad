@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 12)
-    (tracks 191)
+    (tracks 195)
     (zones 0)
     (modules 19)
     (nets 45)
@@ -1098,6 +1098,10 @@
   (gr_line (start 93 72.5) (end 93 122.5) (layer Dwgs.User) (width 0.2) (tstamp 5DA982E4))
   (gr_line (start 96 69.5) (end 175.5 69.5) (layer Dwgs.User) (width 0.2) (tstamp 5DA982F0))
 
+  (segment (start 164.170001 122.390001) (end 165.02 123.24) (width 0.254) (layer Top) (net 1))
+  (segment (start 163.68 121.9) (end 164.170001 122.390001) (width 0.254) (layer Top) (net 1))
+  (segment (start 159.94 120.7) (end 161.14 121.9) (width 0.254) (layer Top) (net 1))
+  (segment (start 161.14 121.9) (end 163.68 121.9) (width 0.254) (layer Top) (net 1))
   (via (at 126.9 94.3) (size 1.27) (drill 1.016) (layers Top Bottom) (net 2))
   (segment (start 126.92 120.7) (end 126.92 94.32) (width 0.254) (layer Bottom) (net 2))
   (segment (start 126.92 94.32) (end 126.9 94.3) (width 0.254) (layer Bottom) (net 2))
